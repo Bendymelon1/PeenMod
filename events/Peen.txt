@@ -54,6 +54,10 @@ country_event = {
 			tag = PEN
 			NOT = { defensive_war_with = ENG }
 			has_country_flag = PEN_morale
+			owns = 167
+			owns = 168
+			owns = 1879
+			owns = 177
 		}
 		controlled_by = owner
 	}
@@ -64,6 +68,16 @@ country_event = {
 
 	option = {
 		name = "flavor_PEN.3.a"
+		add_core = 178
+		add_core = 180
+		add_core = 4111
+		add_core = 195
+		add_core = 199
+		add_core = 194
+		add_core = 174
+		add_core = 173
+		add_core = 176
+		add_core = 175
 		remove_country_modifier = event_PEN_morale
 	}
 }
