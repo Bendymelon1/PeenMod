@@ -5048,3 +5048,6 @@
  PRESS_SAILORS_TITLE_DESCRIPTION:0 "You will gain $SAILORS|Y$ sailors from them.\n"
  MACRO_BUILDING_LIST_WINDOW_TITLE:0 "Build $BUILDINGNAME$ in provinces."
  MACRO_BUILDING_LIST_WINDOW_CLOSE:0 "Close province list."
+
+ THE_PEENIAN_EMPIRE:0 "The Peenian Empire"
+ THE_PEENIAN_EMPIRE_DESC:0 "The Peenian Empire, once in control of a sizeable portion of Western France, has been reduced to just Swabia and its environs, as a result of ineffective rulers. With England and France still embroiled in the Hundred Years War, and with a newly coronated emperor, Dennison Chen, the way for the Peenian Empire to reclaim its former lands was left open."

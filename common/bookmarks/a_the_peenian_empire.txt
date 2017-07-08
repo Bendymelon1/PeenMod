@@ -1,0 +1,15 @@
+bookmark =
+{
+	name = "THE_PEENIAN_EMPIRE"
+	desc = "THE_PEENIAN_EMPIRE_DESC"
+	date = 1444.11.11
+	
+	center = 172
+	
+	country = PEN
+	country = ENG
+	country = FRA
+
+	
+	easy_country = PEN
+}
