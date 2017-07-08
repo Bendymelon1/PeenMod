@@ -33,7 +33,7 @@ PEN_ideas = {
 		leader_land_shock = 4
 		leader_land_fire = 4
 		leader_land_manuever = 4	
-		leader_land_siege = 4
+		leader_siege = 4
 	}	
 	peen_idea4 = {
 		army_tradition_decay = -0.01
