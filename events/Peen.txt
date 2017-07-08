@@ -1,0 +1,111 @@
+namespace=flavor_PEN
+#Heavies in basement
+province_event = {
+	id = flavor_PEN.1
+	title = "flavor_PEN.1.t"
+	desc = "flavor_PEN.1.d"
+	picture = ANGRY_MOB_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			tag = PEN
+			NOT = { has_country_flag = peenships }
+			is_free_or_tributary_trigger = yes
+			defensive_war_with = ENG
+		}
+	controlled_by = owner
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		set_country_flag = PEN_morale
+		name = "flavor_PEN.1.a"
+		heavy_ship = ROOT
+		heavy_ship = ROOT
+		heavy_ship = ROOT
+		heavy_ship = ROOT
+		heavy_ship = ROOT
+		heavy_ship = ROOT
+		heavy_ship = ROOT
+		add_country_modifier = {
+			name = "event_PEN_morale"
+		}
+	}
+}
+
+#Heavies in basement expire
+country_event = {
+	id = flavor_PEN.3
+	title = "flavor_PEN.3.t"
+	desc = "flavor_PEN.3.d"
+	picture = ANGRY_MOB_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			tag = PEN
+			NOT = { defensive_war_with = ENG }
+			is_free_or_tributary_trigger = yes
+			has_country_flag = PEN_morale
+		}
+		controlled_by = owner
+	}
+
+	mean_time_to_happen = {
+	months = 1
+	}
+
+	option = {
+		name = "flavor_PEN.3.a"
+		remove_country_modifier = event_PEN_morale
+	}
+}
+
+#kill_peen
+country_event = {
+	id = flavor_PEN.2
+	title = "flavor_PEN.2.t"
+	desc = "flavor_PEN.2.d"
+	picture = SIEGE_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = ENG
+		NOT = { war_with = PEN }
+		NOT = { truce_with = PEN }
+	}
+
+	mean_time_to_happen = {
+		months = 3
+	}
+	option = {
+		name = "flavor_PEN.2.a"
+		ai_chance = {
+			factor = 0
+		}
+		add_prestige = -10
+		add_stability = -1
+		add_country_modifier = {
+			name = "decreased_morale"
+		}
+	}
+	option={
+		name = "flavor_PEN.2.b"
+		ai_chance = {
+			factor = 100
+		}
+		ENG = {
+			declare_war_with_cb = {
+				who = PEN
+				casus_belli = cb_annex
+			}
+		}
+	}
+}

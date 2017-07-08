@@ -1,0 +1,23 @@
+# 171 Morbihan
+
+owner = PEN
+controller = PEN
+capital = "SpawnTown"
+is_city = yes
+culture = peenian
+religion = catholic
+hre = no
+base_tax = 7 
+base_production = 5
+trade_goods = fish
+base_manpower = 7
+estate = estate_nobles
+add_core = PEN
+add_claim = ENG
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+

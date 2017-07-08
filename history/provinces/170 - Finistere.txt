@@ -1,0 +1,23 @@
+# 170 Finistère - Principal cities: Brest
+
+owner = PEN
+controller = PEN
+capital = "Peenville"
+is_city = yes
+culture = peenian
+religion = catholic
+hre = no
+base_tax = 4 
+base_production = 3
+trade_goods = naval_supplies
+base_manpower = 4
+add_core = PEN
+add_claim = ENG
+fort_15th = yes
+
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

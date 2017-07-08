@@ -1,0 +1,25 @@
+# 169 Armor - Principal cities: Rennes
+
+owner = PEN
+controller = PEN
+capital = "Dorito"
+is_city = yes
+culture = peenian
+religion = catholic
+hre = no
+base_tax = 9 
+base_production = 7
+trade_goods = cloth
+base_manpower = 9
+estate = estate_church
+add_core = PEN
+add_claim = ENG
+
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+
