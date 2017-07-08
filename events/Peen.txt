@@ -1,6 +1,6 @@
 namespace=flavor_PEN
 #Heavies in basement
-province_event = {
+country_event = {
 	id = flavor_PEN.1
 	title = "flavor_PEN.1.t"
 	desc = "flavor_PEN.1.d"
@@ -12,7 +12,6 @@ province_event = {
 		owner = {
 			tag = PEN
 			NOT = { has_country_flag = peenships }
-			is_free_or_tributary_trigger = yes
 			defensive_war_with = ENG
 		}
 	controlled_by = owner
@@ -25,15 +24,18 @@ province_event = {
 	option = {
 		set_country_flag = PEN_morale
 		name = "flavor_PEN.1.a"
-		heavy_ship = ROOT
-		heavy_ship = ROOT
-		heavy_ship = ROOT
-		heavy_ship = ROOT
-		heavy_ship = ROOT
-		heavy_ship = ROOT
-		heavy_ship = ROOT
+		172 = {
+			heavy_ship = ROOT
+			heavy_ship = ROOT
+			heavy_ship = ROOT
+			heavy_ship = ROOT
+			heavy_ship = ROOT
+			heavy_ship = ROOT
+			heavy_ship = ROOT
+		}
 		add_country_modifier = {
 			name = "event_PEN_morale"
+			duration = -1
 		}
 	}
 }
@@ -51,7 +53,6 @@ country_event = {
 		owner = {
 			tag = PEN
 			NOT = { defensive_war_with = ENG }
-			is_free_or_tributary_trigger = yes
 			has_country_flag = PEN_morale
 		}
 		controlled_by = owner

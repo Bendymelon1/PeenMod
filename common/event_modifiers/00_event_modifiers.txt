@@ -9120,3 +9120,4 @@ hints_timer = { }
 #Peen
 event_PEN_morale = {
 	land_morale = 0.20
+}

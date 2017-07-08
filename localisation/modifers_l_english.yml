@@ -1005,3 +1005,5 @@
  desc_honest_administrators:0 "The widespread trust and lack of bribes in our administration means it is a lot more simple for us to maintain than it would have been in most other countries."
  serf_desertion:0 "Cossack Revolts and Deserting Serfs"
  desc_serf_desertion:0 "Following our total loss of control over the Cossack estate our serfs are now abandoning our country in rapidly increasing numbers to join the free Cossacks of the steppe."
+ 
+ event_PEN_morale: "Our Last Stand"
