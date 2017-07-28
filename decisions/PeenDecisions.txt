@@ -1,0 +1,21 @@
+country_decisions = {
+	PEN_quality = {
+		potential = {
+			has_country_flag = PEN_qualityflag
+			tag = PEN
+		}
+		allow = {
+			mil_power = 200
+			mil = 6
+		}
+		effect = {
+			clr_country_flag = PEN_qualityflag
+			add_mil_power = -200
+			add_unrest = -2
+			add_country_modifier = {
+				name = "PEN_quality"
+				duration = -1
+			}
+		}
+	}
+}

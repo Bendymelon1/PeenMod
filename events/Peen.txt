@@ -9,12 +9,9 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		owner = {
-			tag = PEN
-			NOT = { has_country_flag = peenships }
-			defensive_war_with = ENG
-		}
-	controlled_by = owner
+		tag = PEN
+		NOT = { has_country_flag = peenships }
+		defensive_war_with = ENG
 	}
 
 	mean_time_to_happen = {
@@ -50,17 +47,14 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		owner = {
-			tag = PEN
-			NOT = { defensive_war_with = ENG }
-			has_country_flag = PEN_morale
-			owns = 167
-			owns = 168
-			owns = 1879
-			owns = 177
-		}
-		controlled_by = owner
-	}
+		tag = PEN
+		NOT = { defensive_war_with = ENG }
+		has_country_flag = PEN_morale
+		owns = 167
+		owns = 168
+		owns = 1879
+		owns = 177
+}
 
 	mean_time_to_happen = {
 	months = 1
@@ -79,6 +73,7 @@ country_event = {
 		add_core = 176
 		add_core = 175
 		remove_country_modifier = event_PEN_morale
+		set_country_flag = PEN_qualityflag
 	}
 }
 

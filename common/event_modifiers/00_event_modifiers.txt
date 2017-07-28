@@ -1,6 +1,31 @@
 ##################################################################################################
 # scriptable and usable for event-system below.
 ##################################################################################################
+######
+#Peen#
+######
+event_PEN_morale = {
+	land_morale = 0.20
+}
+
+PEN_quality = {
+	discipline = 0.2
+	infantry_power = 0.1
+	cavalry_power = 0.1
+	artillery_power = 0.1
+	army_tradition = 0.3
+	global_manpower_modifier = -0.1
+	global_regiment_recruit_speed = 0.5
+	manpower_recovery_speed = -0.2
+	infantry_cost = 0.2
+	cavalry_cost = 0.2
+	artillery_cost = 0.2
+}
+
+
+
+
+
 
 national_bank_interest = {
 	interest = -1
@@ -9117,7 +9142,3 @@ tutorial_negative_modifier = {
 
 hints_timer = { }
 
-#Peen
-event_PEN_morale = {
-	land_morale = 0.20
-}
