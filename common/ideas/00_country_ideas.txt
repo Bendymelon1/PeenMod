@@ -53,6 +53,55 @@ PEN_ideas = {
 	}
 }
 
+BRN_ideas = {
+	start = {
+		army_tradition = 0.2
+		discipline = 0.2
+	}
+	
+	bonus = {
+		discipline = 0.05
+	}
+	
+	trigger = {
+			tag = BRN
+		}
+	free = yes		#will be added at load.
+	
+	peen_idea1 = {
+		global_tax_modifier = 0.1
+	}
+	peen_idea2 = {
+		cavalry_power = 0.5
+		cavalry_cost = -0.5
+		cavalry_shock = 0.5
+	}
+	peen_idea3 = {
+		army_tradition_decay = -1
+		infantry_power = 0.20
+		leader_land_shock = 4
+		leader_land_fire = 4
+		leader_land_manuever = 4	
+		leader_siege = 4
+	}	
+	peen_idea4 = {
+		army_tradition_decay = -0.01
+	}
+	peen_idea5 = {
+		stability_cost_modifier = -0.1
+	}
+	peen_idea6 = {
+		global_manpower_modifier = 0.25
+		global_regiment_recruit_speed = -0.10
+	}
+	peen_idea7 = {
+		global_missionary_strength = -100
+		tolerance_heretic = 5
+		tolerance_heathen = 5
+		tolerance_own = 5
+	}
+}
+
 
 ### Nation specific idea groups
 

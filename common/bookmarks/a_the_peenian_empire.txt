@@ -7,9 +7,11 @@ bookmark =
 	center = 172
 	
 	country = PEN
+	country = BRN
 	country = ENG
 	country = FRA
 
 	
 	easy_country = PEN
+	easy_country = BRN
 }

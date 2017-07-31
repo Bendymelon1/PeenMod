@@ -1,39 +1,30 @@
 government = feudal_monarchy
-historical_friend = BRN
+historical_friend = PEN
 government_rank = 3
-primary_culture = peenian
+primary_culture = brenman
 religion = catholic
 technology_group = western
-capital = 172	# Nantes
+capital = 125	# Palermo
 
 1443.3.4 = {
 	monarch = {
-		name = "Dennison"
-		dynasty = "Chen"
+		name = "Aaron"
+		dynasty = "Du"
 		birth_date = 1405.1.1		
 		adm = 7
 		dip = 6
 		mil = 8
 		leader = {	
-			name = "Dennison Chen"            	
+			name = "Aaron Du"            	
 			type = general	
 			rank = 0	
-			fire = 4	
-			shock = 6	
-			manuever = 6	
-			siege = 4
+			fire = 3	
+			shock = 2	
+			manuever = 4	
+			siege = 3
 		}
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = inspiring_leader_personality
 	add_ruler_personality = immortal_personality
-	leader = {
-		name = "Wesley Chen"
-		type = admiral
-		rank = 0
-		fire = 6
-		shock = 5
-		manuever = 6
-		siege = 4
-	}
 }

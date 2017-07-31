@@ -34,6 +34,18 @@ peen = {
 			Chen Du Gandhi Li Meartsi Ung
 		}
 	}
+	brenman = {
+		primary = BRN
+		male_names = {
+			Aaron Bryan Dennison Gal Jay Steven Tony Wesley
+		}
+		female_names = {
+			TEMP FINISH THIS LATER
+		}
+		dynasty_names = {
+			Chen Du Gandhi Li Meartsi Ung
+		}
+	}
 }
 
 germanic = {

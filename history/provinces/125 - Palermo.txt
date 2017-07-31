@@ -1,0 +1,21 @@
+#125 - Palermo
+
+owner = BRN
+controller = BRN
+culture = brenman
+religion = catholic 
+hre = no 
+base_tax = 15
+base_production = 8
+trade_goods = wine
+base_manpower = 10
+capital = "Palermo"
+is_city = yes
+add_core = BRN
+
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

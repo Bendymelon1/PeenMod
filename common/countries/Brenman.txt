@@ -1,0 +1,61 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 18 67 84 }
+
+historical_score = 26
+
+historical_idea_groups = {
+	naval_ideas
+	trade_ideas
+	religious_ideas
+	exploration_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	offensive_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	french_caracolle
+	anglofrench_line
+	french_dragoon
+	french_bluecoat
+	french_cuirassier
+	french_impulse
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Dennison #0" = 30
+	"Bryan #0" = 15
+	"Wesley #0" = 20
+	"Aaron #0" = 15
+	"Steven #0" = 10
+	"Jay #0" = 5
+	"Gal #0" = 5
+	
+	
+	"Test #0" = -100
+}
+
+leader_names = {
+	"Chen"	"Du"	"Li"	"Gandhi"	"Ung"	"Meartsi"
+}
+
+ship_names = {
+	"$PROVINCE$ Fleet"
+}
+
+army_names = {
+	 "Army of $PROVINCE$"
+}

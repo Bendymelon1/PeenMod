@@ -8163,7 +8163,11 @@
  peen:0 "Peenic"
  peenian:0 "Peenian"
  pswabian:0 "Swabian"
+ brenman:0 "Brenman"
  #other localisations
  PEN_ideas_start:0 "Peenian Traditions"
  PEN_ideas:0 "Peenian Ideas"
  PEN_ideas_bonus:0 "Peenian Ambitions"
+ BRN_ideas_start:0 "Brenman Traditions"
+ BRN_ideas:0 "Brenman Ideas"
+ BRN_ideas_bonus:0 "Brenman Ambitions"

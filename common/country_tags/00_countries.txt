@@ -4,6 +4,7 @@ PIR = "countries/Pirates.txt"
 NAT = "countries/Natives.txt"
 
 PEN = "countries/Peen.txt"
+BRN = "countries/Brenman.txt"
 
 #Scandinavia
 SWE	= "countries/Sweden.txt"
