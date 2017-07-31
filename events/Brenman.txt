@@ -1,0 +1,48 @@
+namespace=flavor_BRN
+#stealing Naples
+country_event = {
+	id = flavor_BRN.1
+	title = "flavor_BRN.1.t"
+	desc = "flavor_BRN.1.d"
+	picture = ANGRY_MOB_eventPicture	
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = BRN
+		ENG = {
+			has_truce = PEN
+		}
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	option = {
+		name = "flavor_BRN.1.a"
+		create_union = NAP
+		123 = {
+			cede_province = BRN
+			add_core = BRN
+			remove_core = NAP
+		}
+		2984 = {
+			cede_province = BRN
+			add_core = BRN
+			remove_core = NAP
+		}
+		1934 = {
+			cede_province = BRN
+			add_core = BRN
+			remove_core = NAP
+		}
+		NAP = {
+			add_liberty_desire = -500
+		}
+		ARA = {
+			declare_war_with_cb = {
+				who = NAP
+				casus_belli = cb_restore_personal_union
+			}	
+		}
+	}
+}
